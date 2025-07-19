@@ -338,21 +338,21 @@ a:hover
 }
 #g1.file
 {
-    background-image: url("../PICTURES/art1.1.jpg");
+    background-image: url("PICTURES/art1.1.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position:left;
 }
 #g2.file
 {
-    background-image: url("../PICTURES/art2.2.jpg");
+    background-image: url("PICTURES/art2.2.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 #g3.file
 {
-    background-image: url("../PICTURES/art3.3.jpg");
+    background-image: url("PICTURES/art3.3.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -526,7 +526,7 @@ a:hover
 
 .DIGITAB
 {
-    background-image: url("../PICTURES/BG.jpg");
+    background-image: url("PICTURES/BG.jpg");
     background-size:contain;
     background-repeat: repeat;
     background-position:center;
@@ -534,7 +534,7 @@ a:hover
 }
 .header
 {
-    background-image: url("../PICTURES/GABG.jpg");
+    background-image: url("PICTURES/GABG.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position:left;
@@ -547,7 +547,7 @@ a:hover
 /*PICTURE*/
 .picCONT
 {
-    background-image: url("../PICTURES/BACKPAPAER.jpg");
+    background-image: url("PICTURES/BACKPAPAER.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -689,7 +689,7 @@ video
 /*===============================IT TAB===========================================*/
 .ITWORKSTAB
 {
-    background-image: url("../PICTURES/BG.jpg");
+    background-image: url("PICTURES/BG.jpg");
     background-size:contain;
     background-repeat: repeat;
     background-position:center;
@@ -698,7 +698,7 @@ video
 }
 .itbg
 {
-    background-image: url("../PICTURES/ITBG.jpg");
+    background-image: url("PICTURES/ITBG.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position:left;
