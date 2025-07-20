@@ -543,6 +543,14 @@ a:hover
     display: flex;
     justify-content: center;
 }
+@media (max-width: 768px)
+{
+    .header
+    {   
+        height: 100px;
+    }
+
+}
 
 /*PICTURE*/
 .picCONT
@@ -761,6 +769,10 @@ video
         {
             padding: 0%;
         }
+    .itbg
+    {
+        height: 100px;
+    }
 }
 
 /*PROJECTS*/
@@ -851,10 +863,10 @@ video
     }
     #digiHEAD
     {
-        font-size: 10px;
+        font-size: 20px;
         text-align: center;
         color:white;
-        padding-top: 50px;
-        padding-bottom: 20px;
+        padding-top: 40px;
+        padding-bottom: 15px;
     }
 }
