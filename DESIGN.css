@@ -625,6 +625,36 @@ a:hover
 
   }
 
+  .linktext
+  {
+    color: gray;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .linktext a
+  {
+    color: #4A0404;
+    text-decoration: underline;
+  }
+  
+  .linktext a:hover
+  {
+    color: white;
+    background-color: red;
+  }
+
+  @media (max-width: 768px) 
+  {
+    .linktext
+    {
+    font-size: small;
+    padding: 2 20px;
+    }
+    
+  }
+
+
 /*VIDEO*/
 .vidCONT
 {
@@ -639,7 +669,7 @@ a:hover
     width: 100%;
     min-height: 80vh;
     padding: 20px;
-    margin: 20px 0%;
+    margin: 0 0;
 }
 .vidITEM
 {
