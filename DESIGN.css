@@ -841,3 +841,20 @@ video
     padding-bottom: 20px;
 }
 
+@media (max-width: 768px)
+{
+    #titleHEAD
+    {
+        font-size: 50px;
+        text-align: center;
+        color: white;
+    }
+    #digiHEAD
+    {
+        font-size: 30px;
+        text-align: center;
+        color:white;
+        padding-top: 50px;
+        padding-bottom: 20px;
+    }
+}
