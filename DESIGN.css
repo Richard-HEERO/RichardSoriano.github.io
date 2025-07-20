@@ -845,13 +845,13 @@ video
 {
     #titleHEAD
     {
-        font-size: 50px;
+        font-size: 30px;
         text-align: center;
         color: white;
     }
     #digiHEAD
     {
-        font-size: 30px;
+        font-size: 10px;
         text-align: center;
         color:white;
         padding-top: 50px;
