@@ -471,6 +471,11 @@ a:hover
     padding: 0%;
     margin: 0%;
 }
+.descrip h2
+{
+    padding-bottom: 2px;
+    padding-top: 20px;
+}
 
 /*FOR FOOTER*/
 #footerCONT
