@@ -25,7 +25,19 @@
             </ul>
         </nav>
 
+        <script>
+            window.addEventListener('scroll', function () {
+              const navbar = document.getElementById('navnav');
+              if (window.scrollY > 50) {
+                navbar.classList.add('scrolled');
+              } else {
+                navbar.classList.remove('scrolled');
+              }
+            });
+          </script>
+
     <!--PICTURE TAB-->
+<div class="GRAPHICCONT">
     <h2 id="digiHEAD">PICTURE EDIT</h2>
     <div class="picCONT">
         <div class="picITEM">
@@ -52,12 +64,32 @@
         </div>
     </div>
 
+    <h2 id="digiHEAD">POSTER EDIT</h2>
+    <div class="picCONT">
+        <div class="picITEM">
+            <div class="Gallery">
+                <img src="PICTURES/PT1.jpg">
+                <p>POSTER SAMPLE</p>
+            </div>
+            <div class="Gallery">
+                <img src="PICTURES/PT2.jpg">
+                <p>POSTER SAMPLE</p>
+            </div>
+            <div class="Gallery">
+                <img src="PICTURES/PT3.jpg">
+                <p>POSTER EDIT</p>
+            </div>
+        </div>
+    </div>
+    
     <div class="linkbar">
         <p class="linktext">
-          THE IMAGE USED IS MY TRADITIONAL ART. VISIT MY DRIVE TO VIEW THE ORIGINAL AND EDITED
+          VISIT MY DRIVE TO VIEW THE ORIGINAL IMAGE AND EDITED
           <a href="https://drive.google.com/drive/folders/1VdtgSbFUBZD6FE464kL8gzEW8TaUdSCQ?usp=sharing" target="_blank">VIEW DRIVE</a>
         </p>
       </div>
+</div>
+
 
     <!--VIDEO TAB-->
     <h2 id="digiHEAD">VIDEO EDIT</h2>

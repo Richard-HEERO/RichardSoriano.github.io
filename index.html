@@ -41,6 +41,17 @@
             </ul>
         </nav>
 
+        <script>
+            window.addEventListener('scroll', function () {
+              const navbar = document.getElementById('navnav');
+              if (window.scrollY > 50) {
+                navbar.classList.add('scrolled');
+              } else {
+                navbar.classList.remove('scrolled');
+              }
+            });
+          </script>
+
 <!--about me-->        
 <div class="aboutme">
     <h1 id="HEADERS"> ABOUT ME <br></h1>

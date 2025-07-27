@@ -34,6 +34,7 @@ a, p{
     justify-content: center;
     align-items: center;
 }
+
 /*===============================MAIN PAGE===========================================*>
 /*FOR FRONTPAGE*/
 .frontpage{
@@ -172,6 +173,12 @@ a, p{
     justify-items: center;
     backdrop-filter: blur(10px)
 }
+
+#navnav
+{
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
 .navbar
 {
     transition: background-color 0.5s ease;
@@ -201,6 +208,18 @@ a
 
     padding:10px 0;
 }
+
+.scrolled
+{
+    background-color: white !important;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+  
+  .scrolled a
+{
+    color: black !important;
+}
+
 a:hover
 {
     background-color: red;
@@ -531,7 +550,6 @@ a:hover
 
 .DIGITAB
 {
-    background-image: url("PICTURES/BG.jpg");
     background-size:contain;
     background-repeat: repeat;
     background-position:center;
@@ -560,19 +578,15 @@ a:hover
 /*PICTURE*/
 .picCONT
 {
-    background-image: url("PICTURES/BACKPAPAER.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-
     display: flex;
     align-items: center;
     justify-content: center;
 
     width: 100%;
-    min-height: 80vh;
-    padding: 20px;
+    min-height: 60vh;
+    padding: 0 20px;
     margin: 0%;
+    margin-bottom: 20px;
 }
 .picITEM 
 {
@@ -655,8 +669,7 @@ a:hover
     {
     font-size: small;
     padding: 2 20px;
-    }
-    
+    }  
   }
 
 
@@ -884,8 +897,6 @@ video
     font-size: 40px;
     text-align: center;
     color:white;
-    padding-top: 50px;
-    padding-bottom: 20px;
 }
 
 @media (max-width: 768px)
@@ -904,4 +915,18 @@ video
         padding-top: 40px;
         padding-bottom: 15px;
     }
+}
+
+.linkbar
+{
+    padding-bottom: 10px;
+}
+.GRAPHICCONT
+{
+    background-image: url("PICTURES/BACKPAPAER.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 20px;
+    margin: 40px 0 ;
 }
